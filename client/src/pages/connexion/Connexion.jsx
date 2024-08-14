@@ -43,7 +43,7 @@ export default function Connexion() {
       return handleError("Tous les champs sont obligatoires");
     }
 
-    const apiUrl = "https://auth-app-mern-api.vercel.app/auth/connexion";
+    const apiUrl = "https://checkpoint-deployment.vercel.app/auth/connexion";
     await axios
       .post(apiUrl, userInfo)
       .then((res) => {
